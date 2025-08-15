@@ -18,221 +18,204 @@ interface ContractsConfig {
 }
 
 export const contractsConfig: ContractsConfig = {
-  xdc: {
-    RoleManager: "0x5e7c0b7DaEeDe99e0A342Ac416C32d21910d3d96",
-    ProfileNFTMinter: "0x3054D725BABE2FACa9b0cE26480E463511B3F24F",
-    TribeController: "0x7930B9CD5216cABa295753C8542b250BC77A4DAb",
-    PointSystem: "0xB9c458D51532821Da9A5eb7D3e6178268F7f8fb1",
-    CollectibleController: "0x61dBbfA3950C7A58E2E19213C9A5B8E5bE1d052c",
-    PostFeedManager: "0x772f0a8BeeE962e5802263b11cE17118179Edf7D",
-    PostMinter: "0xa3Af1b4a7676360e155D4a7603E7c5BAb7Cc867D",
-    Voting: "0xDf72AA98E4b61D1E4BcD195D13f09fEF9E14Fe01",
-    CommunityPoints: "0xBef591643F40785c2C89e69381ACD471b6D7389c",
-    EventTickets: "0x77c9fF5b465b96f22534e11F2B672d6c5c8387Bf",
-    SuperCommunityController: "0xFE6C391DC26Cd4C9C7fa49E3C0935deA8A489fB0",
-    Analytics: "0x68C7987adF12dF76989b2fC8F6d8fA09DfeD4a14",
-    ContentManager: "0x1238924c0861D2B45533666D049CE4dF0ECCA40b",
-    ProjectController: "0x8d00CA16dd47Edb8276f7D805c9816789703470B"
+  core_testnet: {
+    RoleManager: "0x44174ec378E9119495Cf6CE503A28666a4605A4d",
+    ProfileNFTMinter: "0xAC0761E1E6324b4b7587287275F3e2D4467c2068",
+    TribeController: "0x1237266D5a787DFDd5DdB7BAEaF260A474CCE66C",
+    PointSystem: "0xF38fdCaf8D0cf6763884eC383fA1Ee2B677F207d",
+    CollectibleController: "0xB32fBb6D39db8515529d93c97e87fEc7D0732f3c",
+    PostFeedManager: "0xe86cC14Dc4221c101B68dA549C0F2792e4A696BF",
+    PostMinter: "0xf2DE8ceB8867D5bA47f2767Cd726C318D4267375",
+    Voting: "0x24C5B1c86F1FdB0a1473878443De282b6c0e454b",
+    CommunityPoints: "0x700EF79E7154018a223639bFf1945cD0B990CB28",
+    EventTickets: "0xf7bf8FAADc25047060Bcfa3Bf208268038964F3C",
+    SuperCommunityController: "0x7EA36c8b80CEeb6D1aed421316aaECb34286d880",
+    Analytics: "0x92B71BBA5c8282c8dD3d4D56bb2837846B30BD01",
+    ContentManager: "0x3E232d7e2422Df911ebbD0688C9d618965E60DF2",
+    ProjectController: "0x4015C018924266B998f4e3F33D7ccBde5Ec52ccd"
   }
 }
 
-// export const contractsConfig: ContractsConfig = {
-//   xdc: {
-//     RoleManager: "0xDaA67f784d9CE364EC4A251C6f8160231Fda4042",
-//     ProfileNFTMinter: "0x7A49206f74A3c7f6427AB24ABe612E0C81709107",
-//     TribeController: "0xC3e041F72365c7FEA790D03ae299c377A8022B89",
-//     PointSystem: "0x67587652abeABFe3f3ebcD571e8cd012b486197F",
-//     CollectibleController: "0x18DAc1FA300541b874D3E2eC26Af030400C401Ac",
-//     PostFeedManager: "0x0124dE9b3682e746c7a7212Ee03709DA2eF0E764",
-//     PostMinter: "0xcb168B5AAAdA11135E03BfD3FD535573A8CCC20d",
-//     Voting: "0xffa35f2B367D2fbc8988366Ff461029a2C683D29",
-//     CommunityPoints: "0x798b99E4f587a85a0b586292beE40d16f9785593",
-//     EventTickets: "0x5AE8ac02613EBA7f7896bD554d74F1fDF7Baa3f0",
-//     SuperCommunityController: "0x65a5E3B531CD42211635a1B8C2A55F68CfD116c2",
-//     Analytics: "0x9dC5AF9d58B5bcbEE98c8835dC2BF7653270c210",
-//     ContentManager: "0xD9eC940fc25b561F5b5027A3A63b3B0dA0174Bdb",
-//     ProjectController: "0xFc859936121b8878ECa6FF04F6215F230ad26e86"
-//   }
-// }
+// Deploying RoleManager...
 
 // Contract deployment: RoleManager
-// Contract address:    0xDaA67f784d9CE364EC4A251C6f8160231Fda4042
-// Transaction:         0x224668d6c3ab7ebc9ef33012656cf4218bee51505d52b491bc16fb8db88cee9a
-// From:                0x9424eABF02E833Cd95650A635201929220f33F35
+// Contract address:    0x44174ec378E9119495Cf6CE503A28666a4605A4d
+// Transaction:         0x47a99727189066aab23278fee44c67fb8a09c7582f19ee7dcf06a45f38f6884e
+// From:                0x615A5bdC5283FE2Cde6D5Eb5baF27E61857D68EB
 // Value:               0.0 ETH
-// Gas used:            1173999 of 1173999
-// Block #:             91310967
-// Block hash:          0xe2b7f930414c0ebf53ef4d94fc7154c36cf3015846904ad26ee0362ba4a2d6c3
+// Gas used:            959553 of 968336
+// Block #:             7331592
+// Block hash:          0x6637e2556883f8f97150ef00e438c078bfcaa0cdc11ab97fd4d081cc0d16ffd5
 // --------------------------------------------------
 
 // Deploying ProfileNFTMinter...
 
 // Contract deployment: ProfileNFTMinter
-// Contract address:    0x7A49206f74A3c7f6427AB24ABe612E0C81709107
-// Transaction:         0xeef23b37be48f97d13e98610cdbb477e803019ba20bbf4d0af94289a7bcb417b
-// From:                0x9424eABF02E833Cd95650A635201929220f33F35
+// Contract address:    0xAC0761E1E6324b4b7587287275F3e2D4467c2068
+// Transaction:         0xe29548081f94360b823a6a71960f6bda550f3a039ef3f5bbf0a83745b0ecba14
+// From:                0x615A5bdC5283FE2Cde6D5Eb5baF27E61857D68EB
 // Value:               0.0 ETH
-// Gas used:            2074481 of 2074481
-// Block #:             91310969
-// Block hash:          0x471c7321f77854987f0a96ce23b455858ee059bcc5d1bb93c0a4bf434cdd3b4a
+// Gas used:            1672419 of 1686859
+// Block #:             7331594
+// Block hash:          0xc5b250241ee1b00a8ce3c55b721340d20471cb72093f59bb7e2eacc95dc0f623
 // --------------------------------------------------
 
 // Deploying TribeController...
 
 // Contract deployment: TribeController
-// Contract address:    0xC3e041F72365c7FEA790D03ae299c377A8022B89
-// Transaction:         0x3a0d279a9c04533bfb94270affce3bec2bcebe4563f27495300b06bb5dc92673
-// From:                0x9424eABF02E833Cd95650A635201929220f33F35
+// Contract address:    0x1237266D5a787DFDd5DdB7BAEaF260A474CCE66C
+// Transaction:         0xc2a3fb9b37c0072c5f983af374d7f6323a45de67f535e52f56a5e454c2fbd8f6
+// From:                0x615A5bdC5283FE2Cde6D5Eb5baF27E61857D68EB
 // Value:               0.0 ETH
-// Gas used:            5629777 of 5629777
-// Block #:             91310971
-// Block hash:          0xd4ac61d859ccedc3a044c81209302d04aba47472dc1db3cd76f91c3f33839886
+// Gas used:            4559305 of 4596657
+// Block #:             7331596
+// Block hash:          0x72bab9884335f3b66e3535fb5bbbc8f22d3dd08efaa2fd6be898962e8a6104c4
 // --------------------------------------------------
 
 // Deploying PointSystem...
 
 // Contract deployment: PointSystem
-// Contract address:    0x67587652abeABFe3f3ebcD571e8cd012b486197F
-// Transaction:         0xbeaec5b2546f7d6e94cb7a187a2ea2edec5e406f38a7b571765600ac39cd039b
-// From:                0x9424eABF02E833Cd95650A635201929220f33F35
+// Contract address:    0xF38fdCaf8D0cf6763884eC383fA1Ee2B677F207d
+// Transaction:         0x9d8a554267bd7cc0c7649632aef746ef3c75ed9adc25c0b9bfd626e4848ea730
+// From:                0x615A5bdC5283FE2Cde6D5Eb5baF27E61857D68EB
 // Value:               0.0 ETH
-// Gas used:            2816334 of 2816334
-// Block #:             91310973
-// Block hash:          0xdd6a2de8b33448f1925715793e386e9875707727b40b8b2eb5bd23b8f3ad4979
+// Gas used:            2309052 of 2328545
+// Block #:             7331598
+// Block hash:          0x08ded3cbee3bdc8deb17df1af47e148ab0ed445dfb1259d46f466d56cc756fd0
 // --------------------------------------------------
 
 // Deploying CollectibleController...
 
 // Contract deployment: CollectibleController
-// Contract address:    0x18DAc1FA300541b874D3E2eC26Af030400C401Ac
-// Transaction:         0xfded278f7cc238f55c2745638643e75952611f0ffe7fafce75e470a1def2819a
-// From:                0x9424eABF02E833Cd95650A635201929220f33F35
+// Contract address:    0xB32fBb6D39db8515529d93c97e87fEc7D0732f3c
+// Transaction:         0x82e42688e6651fa3700564ceadffa8c17d020a65fe5fe59d92c0e04b503c6242
+// From:                0x615A5bdC5283FE2Cde6D5Eb5baF27E61857D68EB
 // Value:               0.0 ETH
-// Gas used:            2523799 of 2523799
-// Block #:             91310975
-// Block hash:          0x0f8667b31fcf0c7e0c460961d5842259a4c5ecc064b42e936c54c560f55d429c
+// Gas used:            2045971 of 2063376
+// Block #:             7331600
+// Block hash:          0x6bdc0f97fef7adbd0074204595c0da546d76b4862028382bd14d2e51d011a3ab
 // --------------------------------------------------
 
 // Deploying PostFeedManager...
 
 // Contract deployment: PostFeedManager
-// Contract address:    0x0124dE9b3682e746c7a7212Ee03709DA2eF0E764
-// Transaction:         0x079e49b63c12dd8a794ccbd8d332aea01c6c8e34a6dcdc934276089e852aa8b6
-// From:                0x9424eABF02E833Cd95650A635201929220f33F35
+// Contract address:    0xe86cC14Dc4221c101B68dA549C0F2792e4A696BF
+// Transaction:         0xeb6ad19a9d2cb10964ac29c9faec3a5892e70fe9b0ea55d492329eeaba25e152
+// From:                0x615A5bdC5283FE2Cde6D5Eb5baF27E61857D68EB
 // Value:               0.0 ETH
-// Gas used:            1546676 of 1546676
-// Block #:             91310977
-// Block hash:          0xb04deeeede9ef2c4159903b8124b1811f423643580852e1a52509f34d5310308
+// Gas used:            1260982 of 1272157
+// Block #:             7331602
+// Block hash:          0xcc0009ac0aaa54f30073191add347e87e7047dbc9d44bffd330d847edbce9918
 // --------------------------------------------------
 
 // Deploying PostMinter...
 
 // Contract deployment: PostMinter
-// Contract address:    0xcb168B5AAAdA11135E03BfD3FD535573A8CCC20d
-// Transaction:         0xef6cee1486e6a89de0d1cfba8c383c578088a7f42acb422203fda17aa4e9ea81
-// From:                0x9424eABF02E833Cd95650A635201929220f33F35
+// Contract address:    0xf2DE8ceB8867D5bA47f2767Cd726C318D4267375
+// Transaction:         0x9029ed433a79463f956e7da6f5ca970f5a4f8fb6357f8d0518fe4a8739642dce
+// From:                0x615A5bdC5283FE2Cde6D5Eb5baF27E61857D68EB
 // Value:               0.0 ETH
-// Gas used:            6041763 of 6041763
-// Block #:             91310979
-// Block hash:          0x5a1c7deaa3f913780353afd39d8f9872568ce83d8c939e6d63f9b332a5f28d76
+// Gas used:            4950255 of 4990710
+// Block #:             7331604
+// Block hash:          0xc626be08614ca7ab1d205d9bfe8df8d68e1852d05b2579e54ca7dd22e9fea290
 // --------------------------------------------------
 
 // Deploying Voting...
 
 // Contract deployment: Voting
-// Contract address:    0xffa35f2B367D2fbc8988366Ff461029a2C683D29
-// Transaction:         0x04d70061f4e37bd1a67c5003f5999d128c43d60dcb568dd610c1c555c78ca7bb
-// From:                0x9424eABF02E833Cd95650A635201929220f33F35
+// Contract address:    0x24C5B1c86F1FdB0a1473878443De282b6c0e454b
+// Transaction:         0x8ef7b0b6c68e8ac59802a1b83287b14208935a0b2d5b1e1e4914ffea443f5ba4
+// From:                0x615A5bdC5283FE2Cde6D5Eb5baF27E61857D68EB
 // Value:               0.0 ETH
-// Gas used:            1785142 of 1785142
-// Block #:             91310981
-// Block hash:          0x6e7d16682e842494c00a905674ef59eb76cf64f14f2ad7a45df00d3af674d072
+// Gas used:            1458212 of 1470952
+// Block #:             7331606
+// Block hash:          0xd1dd07419de799c84a042f65734746ef7a2a712105f414f6f752a3562d2e8d9e
 // --------------------------------------------------
 
 // Deploying CommunityPoints...
 
 // Contract deployment: CommunityPoints
-// Contract address:    0x798b99E4f587a85a0b586292beE40d16f9785593
-// Transaction:         0x02a22f2c241f207c2a06e04441e64b61792d3076b7d032ffdc457da14dd39727
-// From:                0x9424eABF02E833Cd95650A635201929220f33F35
+// Contract address:    0x700EF79E7154018a223639bFf1945cD0B990CB28
+// Transaction:         0x54177d5f3714a41fc2b57f450500781dddff0ff8cd39f5882aefc0bbed5cc48a
+// From:                0x615A5bdC5283FE2Cde6D5Eb5baF27E61857D68EB
 // Value:               0.0 ETH
-// Gas used:            539048 of 539048
-// Block #:             91310983
-// Block hash:          0x36dd2ce8c07de62a8ef625148f1cde067043974c5219f53406035982375111a7
+// Gas used:            448790 of 453519
+// Block #:             7331607
+// Block hash:          0x5e83005dd162513b8818128233a1f2b9269305133c470488076123340ea8e39e
 // --------------------------------------------------
 
 // Deploying EventTickets...
 
 // Contract deployment: EventTickets
-// Contract address:    0x5AE8ac02613EBA7f7896bD554d74F1fDF7Baa3f0
-// Transaction:         0x27f3a9c24749f05997d07df090ee47bfcb6a17f2cc3bc18172010d2135c69173
-// From:                0x9424eABF02E833Cd95650A635201929220f33F35
+// Contract address:    0xf7bf8FAADc25047060Bcfa3Bf208268038964F3C
+// Transaction:         0xb9f9aa971888e888a94f0b419b07a00df10e07f0ea585378a7a4c83092cb35a5
+// From:                0x615A5bdC5283FE2Cde6D5Eb5baF27E61857D68EB
 // Value:               0.0 ETH
-// Gas used:            4647520 of 4647520
-// Block #:             91310985
-// Block hash:          0x594a169514a26089575014ac7c9198ecaf115c2779ff761c2ae5b2096a7a7bb8
+// Gas used:            3771258 of 3802356
+// Block #:             7331608
+// Block hash:          0x7f21ef5c12819e9d6e2213be882ccb4f19c190983cec09302cc8fc4f39d4cf94
 // --------------------------------------------------
 
 // Deploying SuperCommunityController...
 
 // Contract deployment: SuperCommunityController
-// Contract address:    0x65a5E3B531CD42211635a1B8C2A55F68CfD116c2
-// Transaction:         0x91873f8a04a2d917e58df4b1d372b98d987c5f265a81d87eeea3ef4d2a786053
-// From:                0x9424eABF02E833Cd95650A635201929220f33F35
+// Contract address:    0x7EA36c8b80CEeb6D1aed421316aaECb34286d880
+// Transaction:         0x9aace7094567b10c069f7c086915a228811f26b24f2e9dda129a17f42914b937
+// From:                0x615A5bdC5283FE2Cde6D5Eb5baF27E61857D68EB
 // Value:               0.0 ETH
-// Gas used:            1372704 of 1372704
-// Block #:             91310987
-// Block hash:          0x77d1dfe51cab2feb300785bb2f2b1b44343bd5324d51835d60e50402b7f4a296
+// Gas used:            1124770 of 1134864
+// Block #:             7331610
+// Block hash:          0x5c0c507faa5e63b313d7f83b1e2e71694ef64837cb50dda0c99e895bdab26b77
 // --------------------------------------------------
 
 // Deploying Analytics...
 
 // Contract deployment: Analytics
-// Contract address:    0x9dC5AF9d58B5bcbEE98c8835dC2BF7653270c210
-// Transaction:         0x00ff10797f14ee64abbfb85c087e7f574f6115375eaf0a47d967e31b67d57d1f
-// From:                0x9424eABF02E833Cd95650A635201929220f33F35
+// Contract address:    0x92B71BBA5c8282c8dD3d4D56bb2837846B30BD01
+// Transaction:         0x2a9d604cd2ab4ec4572984af091356b75194ec6d1b171baead738dfd701de85d
+// From:                0x615A5bdC5283FE2Cde6D5Eb5baF27E61857D68EB
 // Value:               0.0 ETH
-// Gas used:            1438759 of 1438759
-// Block #:             91310989
-// Block hash:          0xee22b03dda29a2c3dec847796d7467d087cae51dae6edfd84332d61a03a430d7
+// Gas used:            1181321 of 1191864
+// Block #:             7331612
+// Block hash:          0x3d620be4e38aa6953b419310cd7cef85853090fe68a095b70bc506c91a23a9a1
 // --------------------------------------------------
 
 // Deploying ContentManager...
 
 // Contract deployment: ContentManager
-// Contract address:    0xD9eC940fc25b561F5b5027A3A63b3B0dA0174Bdb
-// Transaction:         0x90296315a9206106535e6ea4989e955109718708502ff92a34aee8fac40b8610
-// From:                0x9424eABF02E833Cd95650A635201929220f33F35
+// Contract address:    0x3E232d7e2422Df911ebbD0688C9d618965E60DF2
+// Transaction:         0xb6cf6e0de0df839bfc79198118c7676720c482412d80a59458c9c6771d6c1898
+// From:                0x615A5bdC5283FE2Cde6D5Eb5baF27E61857D68EB
 // Value:               0.0 ETH
-// Gas used:            3514299 of 3514299
-// Block #:             91310991
-// Block hash:          0x13944b23f2ad68ae048c91b65c7c1db13ff57d9cf400b165bb2174d6584acbf1
+// Gas used:            2861733 of 2885612
+// Block #:             7331614
+// Block hash:          0xc772cc616d19840744e40fbc7ce761890fa893d2354f82a455f1a051b422c8c2
 // --------------------------------------------------
 
 // Deploying ProjectController...
 
 // Contract deployment: ProjectController
-// Contract address:    0xFc859936121b8878ECa6FF04F6215F230ad26e86
-// Transaction:         0x6a6638f8f1e9b650728a11a2abd64a1ff3300a4cdcc0b70e9dbd3f1f9d647e80
-// From:                0x9424eABF02E833Cd95650A635201929220f33F35
+// Contract address:    0x4015C018924266B998f4e3F33D7ccBde5Ec52ccd
+// Transaction:         0xc6589ddfb82afa4bd527e9e16d4db8cc76cf1a036c8ae563c12003716af91a63
+// From:                0x615A5bdC5283FE2Cde6D5Eb5baF27E61857D68EB
 // Value:               0.0 ETH
-// Gas used:            2299249 of 2299249
-// Block #:             91310993
-// Block hash:          0xfa4e32c8d8c37eb971c46458d7472f92f1b5e399169cf904105a0935b529cf91
+// Gas used:            1877955 of 1894027
+// Block #:             7331616
+// Block hash:          0xabe84ee9bf68041ac9df79f8c04e58b6360060c0e2fc9145139fa6e9b32ec032
 // --------------------------------------------------
 
 // Setting up roles...
 // Authorizing ProfileNFTMinter as FAN_ASSIGNER...
-// Transaction:      0xbb3e9a5504e1eb94c21583b80621cb143898387b95b0812616cd6526e5b69dee
-// Gas used:        49164 of 49164
-// Block #:         91310995
+// Transaction:      0x21508dde833c3ad2c9125a6c306b4e123872345266e51976d515b28a57123111
+// Gas used:        51916 of 52705
+// Block #:         7331618
 // Granting ORGANIZER_ROLE to deployer...
-// Transaction:      0xbb4a3e602dbef8352e47d587f56938023bed07dfe3ad66bd9f2e4c8f36293df0
-// Gas used:        50866 of 50866
-// Block #:         91310997
+// Transaction:      0x481c156bb058307642d6940b6963f9e2a5d3c488fe8c14a491ee0aecead7df1e
+// Gas used:        53306 of 54100
+// Block #:         7331619
 // Granting DEFAULT_ADMIN_ROLE to PostMinter in PostFeedManager...
-// Transaction:      0x912e66db9f2bc744bc3742e87cf168e9c6e9f4188ea34a04e0bcf372868f6469
-// Gas used:        48857 of 48857
-// Block #:         91310999
+// Transaction:      0xd40e4ce992e180e70a9edd66f56318145b983f3b8a3fa1e183ef2a91baa2219e
+// Gas used:        52909 of 53702
+// Block #:         7331620
 
 // ✅ Deployment completed successfully!
