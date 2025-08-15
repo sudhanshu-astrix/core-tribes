@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom CSS for hiding scrollbars */
+.scrollbar-hide {
+  -ms-overflow-style: none;  /* Internet Explorer 10+ */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;  /* Safari and Chrome */
+}
+
+/* Text truncation utilities */
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Mobile touch improvements */
+@media (max-width: 640px) {
+  .touch-target {
+    min-height: 44px;
+    min-width: 44px;
+  }
+}
+
+html {
+  font-family: 'Inter Tight', 'Noto Sans Display', 'Poppins', ui-sans-serif, system-ui, sans-serif;
+  background-color: #EFEFEF;
+  color: #000000;
+}
+
+body {
+  background-color: #EFEFEF;
+  color: #000000;
+}
+
+.dark html, .dark body {
+  background-color: #111111;
+  color: #FFFFFF;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  background: #E5E7EB;
+}
+::-webkit-scrollbar-thumb {
+  background: #BBF10A;
+  border-radius: 8px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Hide scrollbars for all scrollable elements */
+* {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+}
+
+*::-webkit-scrollbar {
+  display: none; /* WebKit browsers (Chrome, Safari, Edge) */
+}
+
+/* Alternative approach for specific elements if needed */
+.scrollbar-hide {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+} 
